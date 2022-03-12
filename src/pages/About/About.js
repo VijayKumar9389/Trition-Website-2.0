@@ -10,7 +10,7 @@ function About() {
     return (
         <div id='about-container'>
             <div className="header">
-                <h1>ABOUT US</h1>
+                <h1>ABOUT Us</h1>
             </div>
             <div id='about-header'>
                 <h1 data-aos="fade-in">TRITON PUBLIC AWARENESS</h1>
