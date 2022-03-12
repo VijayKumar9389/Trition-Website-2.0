@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Trition-Website-2.0/static/css/main.cefdd705.css",
+    "main.js": "/Trition-Website-2.0/static/js/main.19249169.js",
+    "static/media/ImageTwo.jpg": "/Trition-Website-2.0/static/media/ImageTwo.9f38c5d3ebfbfd69d49e.jpg",
+    "static/media/ImageOne.jpg": "/Trition-Website-2.0/static/media/ImageOne.eca4f591f305f74da356.jpg",
+    "static/media/ImageThree.jpeg": "/Trition-Website-2.0/static/media/ImageThree.4ed43b31ec0a1af3c68f.jpeg",
+    "static/media/Logo.Large.png": "/Trition-Website-2.0/static/media/Logo.Large.4d7f1d0d8786f095715f.png",
+    "static/media/Logo.png": "/Trition-Website-2.0/static/media/Logo.99867cf97872a09d68ef.png",
+    "static/media/ImgFour.svg": "/Trition-Website-2.0/static/media/ImgFour.07b91fe97a59c42a54548123c50bb53d.svg",
+    "static/media/ImgOne.svg": "/Trition-Website-2.0/static/media/ImgOne.58bc72775a0c8ca8f7ae5ac869cc9f4a.svg",
+    "static/media/ImgTwo.svg": "/Trition-Website-2.0/static/media/ImgTwo.fc6457e57e13d19a7ded5cc4f3e44dfd.svg",
+    "static/media/ImgFive.svg": "/Trition-Website-2.0/static/media/ImgFive.a42d1e33aa9a7ec7f6ee81984518518e.svg",
+    "static/media/ImgThree.svg": "/Trition-Website-2.0/static/media/ImgThree.405ac7e2f97831228dda693726077cff.svg",
+    "index.html": "/Trition-Website-2.0/index.html",
+    "static/media/iconSeven.svg": "/Trition-Website-2.0/static/media/iconSeven.99adc048576c3bbe9b3baa28f11bf720.svg",
+    "static/media/iconOne.svg": "/Trition-Website-2.0/static/media/iconOne.1011df27c4b0d91c569cb54bb650e485.svg",
+    "static/media/iconFour.svg": "/Trition-Website-2.0/static/media/iconFour.3b1f8c57cd34fbe7567f021a4b53611c.svg",
+    "static/media/iconSix.svg": "/Trition-Website-2.0/static/media/iconSix.3770c02e9b30db3b9dc77a2e49af0fd9.svg",
+    "static/media/iconEight.svg": "/Trition-Website-2.0/static/media/iconEight.4367ff11260eed99202856f1d76d2847.svg",
+    "static/media/iconThree.svg": "/Trition-Website-2.0/static/media/iconThree.a7ed71af6f95a335df92f9fc72abc148.svg",
+    "static/media/iconTwo.svg": "/Trition-Website-2.0/static/media/iconTwo.3b0b49f802ccfb3a3835670e4e3c699b.svg",
+    "main.cefdd705.css.map": "/Trition-Website-2.0/static/css/main.cefdd705.css.map",
+    "main.19249169.js.map": "/Trition-Website-2.0/static/js/main.19249169.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cefdd705.css",
+    "static/js/main.19249169.js"
+  ]
+}
