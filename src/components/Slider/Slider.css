@@ -1,0 +1,144 @@
+#slider-container{
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #1f365c;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+#slide-container{
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#loading-bar{
+    content: '';
+    position: absolute;
+    z-index: 10;
+    width: calc(var(--width, 0) * 1%);
+    height: 10px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    opacity: 1;
+    background: #68bd45;
+    animation: progress-animation 15s infinite;
+}
+
+@keyframes progress-animation {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+#slide-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55%;
+    height: 100%;
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+#slide-content{
+    position: absolute;
+    margin-top: 150px;
+    width: 45%;
+    height: 100%;
+    color: #fff;
+}
+
+#content-wrapper{
+    padding: 50px;
+}
+
+#content-wrapper h1{
+    margin-bottom: 60px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+#content-wrapper h1::after{
+    content: '';
+    position: absolute;
+    background-color:#68bd45;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -25px;
+    transition: .3s;
+    animation: progress-animation 1s;
+    animation-delay: .8s;
+    animation-fill-mode: both;
+}
+
+#content-wrapper p{
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+}
+
+#slider-btn-wrapper{
+    position: absolute;
+    margin-bottom: 125px;
+    bottom: 0px;
+    left: 0px;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider-btn{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    background: #000d1a;
+    border-radius: 50px;
+    padding: 10px;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.slider-btn:hover{
+    background: #68bd45; 
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+
+    #slide-img{
+        width: 100%;
+        height: 100%;
+        clip-path: none; 
+    }
+
+    #slide-content{
+        height: 500px;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    #slide-container{
+        justify-content: center;
+    }
+
+    #slider-btn-wrapper{
+        left: auto;
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,134 @@
+#contact-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 100px 0;
+}
+
+#contact-info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+
+#contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    height: 600px;
+}
+
+#contact-info h2{
+    /* color: #fff; */
+    margin-bottom: 20px;
+}
+
+#contact-info p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#map-container{
+    height: 350px;
+}
+
+#map{
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#contact-forum{
+    width: 40vw;
+    height: 600px;
+}
+
+#contact-forum h2{
+    /* color: #fff; */
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.contact-input{
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+#contact-forum textarea{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forum-btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: #68bd45 0px 0px 0px 3px;
+    padding: 10px 22px;
+    color: #68bd45;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    width: 150px;
+}
+
+#forum-btn:hover{
+    background: #68bd45;
+    color: #fff;
+}
+
+#btn-icon{
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    #contact-info{
+        margin-top: 50px;
+        width: 80vw;
+    }
+
+    #contact-forum{
+        margin: 50px 0;
+        width: 80vw;
+        text-align: left;
+    }
+}
